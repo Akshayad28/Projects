@@ -14,12 +14,12 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class AppTest implements WebDriver, TakesScreenshot, JavascriptExecutor {
+public class CraftDrivers implements WebDriver, TakesScreenshot, JavascriptExecutor {
     private WebDriver driver;
     private static final String DEFAULT_SCREENSHOT_PATH = "C:\\Users\\aksha\\OneDrive - Kirito\\Desktop\\My Project\\githubdemo\\Screenshots";
 
     // Constructor to initialize the WebDriver
-    public AppTest(WebDriver driver) {
+    public CraftDrivers(WebDriver driver) {
         this.driver = driver;
     }
 
